@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <script type="text/javascript" src="./js/rate-submit.js"></script>
+
+</head>
+<body onload="loadDoc()">
+
+  <div class="container">
+    <div class="card">
+      <div id="rate" class="rate">
+        <div class="star-container">
+          <img src="./images/icon-star.svg" alt="Rate">
+        </div>
+        <h1>How did we do?</h1>
+
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+        </p>
+
+        <div class="button-container">
+          <button id="b1" class="first" onclick="rate1()">1</button>
+          <button id="b2" class="" onclick="rate2()">2</button>
+          <button id="b3" class="" onclick="rate3()">3</button>
+          <button id="b4" class="" onclick="rate4()">4</button>
+          <button id="b5" class="last" onclick="rate5()">5</button>
+        </div>
+
+        <div class="submit-button" onclick="submitCheck()">Submit</div>
+
+      </div>
+      <div id="submitted" class="submitted hide">
+        <div class="thanks-container">
+          <img src="./images/illustration-thank-you.svg" alt="Thank You!">
+        </div>
+
+        <div class="displayRate">
+          <p>You selected <span id="rateDisplay">.</span> out of 5</p>
+        </div>
+
+        <h1>Thank you!</h1>
+
+        <p class="message">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="attribution" >
+    Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jarrian(Godking)</a>.
+  </footer>
+</body>
+</html>

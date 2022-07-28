@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass:wght@400;700&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --orange: #fc7614;
+  --mobile: 375px;
+  --desktop: 1440px;
+}
+
+* {
+/*	outline: solid 1px white;*/
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--very-dark-blue);
+	color: var(--white);
+	font-family: Overpass;
+	margin: 0;
+	padding: 1rem;
+	min-height: 100vh;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.card {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	max-height: 20rem;
+	max-width: 20rem;
+	padding: 1rem;
+	background: linear-gradient(var(--dark-blue), hsl(213, 10%, 15%));
+	position: relative;
+	border-radius: 1.5rem;
+}
+
+.star-container {
+	display: flex;
+	height: 2.6rem;
+	aspect-ratio: 1;
+	background: #ffffff10;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	border-radius: 50%;
+	margin-bottom: 1.5rem;
+}
+
+.rate > h1 {
+	font-size: 1.4rem;
+}
+
+.rate > p {
+	color: var(--light-grey);
+	font-size: 0.9rem;
+	line-height: 1.4rem;
+}
+
+.button-container {
+	display: flex;
+	flex: 1;
+}
+
+.button-container > * {
+	margin: auto;
+	height: 2.5rem;
+	color: var(--white);
+	background: #ffffff10;
+	border: none;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	padding: 0;
+	color: var(--light-grey);
+	transition: 0.5s;
+}
+
+.button-container > *:hover {
+	background: var(--light-grey);
+	color: var(--white);
+}
+
+.first {
+	margin-left: 0;
+}
+
+.last {
+	margin-right: 0;
+}
+
+.submit-button {
+	margin-block: 1rem;
+	height: 2.4rem;
+	display: flex;
+	background: var(--orange);
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	transition: 0.5s;
+}
+
+.submit-button:hover {
+	background: var(--white);
+	color: var(--orange);
+}
+
+.submitted {
+	display: flex;
+	flex-direction: column;
+}
+
+.thanks-container {
+	align-self: center;
+	padding: 1rem;
+}
+
+.thanks-container > img {
+	width: 8rem;
+}
+
+.displayRate {
+	display: flex;
+	align-self: center;
+	align-items: center;
+	justify-content: center;
+	background: #ffffff10;
+	padding: 0.5rem;
+	padding-inline: 1rem;
+	height: 2rem;
+	border-radius: 1rem;
+	color: var(--orange);
+	font-size: 0.9rem;
+	margin-block: 0.5rem;
+}
+
+.displayRate > * {
+	margin: 0;
+	padding: 0;
+}
+
+.submitted > h1 {
+	font-size: 1.4rem;
+	align-self: center;
+}
+
+.message {
+	text-align: center;
+	color: var(--light-grey);
+	margin-block: 0;
+	font-size: 0.8rem;
+}
+
+.attribution {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	margin: 0.2rem;
+	align-self: center;
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 650px) {
+	.card {
+		width: 325px;
+		max-height: 325px;
+		max-width: 325px;
+	}
+}
+
+.hide {
+	display: none;
+}
+
+.active {
+	background: var(--orange);
+	color: var(--white);
+}
+
+.active:hover {
+	background: var(--orange);
+	color: var(--white);
+}
