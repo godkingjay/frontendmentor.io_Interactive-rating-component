@@ -33,9 +33,9 @@ Users should be able to:
 ### Links
 
 - Solution URL:
-  --->[LINK](https://www.frontendmentor.io/solutions/product-preview-card-componentresponsive-by-jarrian-dgBygA8fcm)
+  --->[LINK](https://www.frontendmentor.io/solutions/responsive-interactive-rating-component-html-css-js-efe9aHX_90)
 - Live Site URL:
-  --->[LINK](https://godkingjay.github.io/frontendmentor.io_Product-preview-card-component/)
+  --->[LINK](https://godkingjay.github.io/frontendmentor.io_Interactive-rating-component/)
 
 ## My process
 
