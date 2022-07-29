@@ -10,11 +10,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -46,15 +43,11 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow - For styles
 
-### What I learned
 
-### Continued development
-
-### Useful resources
 
 ## Author
 
 - Frontend Mentor - [@godkingjay](https://www.frontendmentor.io/profile/godkingjay)
 - Twitter - [@godking_jay](https://www.twitter.com/godking_jay)
 
-## Acknowledgments
+
