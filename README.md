@@ -46,7 +46,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow - For styles
 
-### What I learned
 
 ### Continued development
 
