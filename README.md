@@ -47,7 +47,6 @@ Users should be able to:
 - Mobile-first workflow - For styles
 
 
-### Continued development
 
 
 ## Author
